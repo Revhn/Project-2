@@ -1,3 +1,8 @@
+/**The purpose of this program block is to compare both num_a and num_b.
+*If num a is less than num b then the else statement will close the 
+* if block with the fi keyword. 
+*/
+
 #!/bin/bash
 
 num_a=400
