@@ -36,6 +36,21 @@ Updated the backup.sh files and removed the -type d in line 23. The new backup.s
 what directory will be backed up. In case no argument is entered by the user during execution then the current
 user's home directory will be backed up by default. 
 
+CODE REVIEW (BRANDON TAYLOR BONNELL)
+
+While reveiwing the code of the original repository, significant changes were impletmented to better visibility of the different branches.
+
+Make note of my updates and comments for the purpose of the if else block, while block, for block, and until block with the subheader "Project: 03 Peer Review Update".
+
+In the past we had trouble with the files uploading and merge requests, but I am glad to see that you were able to get your master branch working properly with the alternative method of uploading the required blocks in a file.
+
+The code is very clean and easy to follow with proper form and line advancements.
+
+My only suggestion would be to make the master branch your default branch if you do choose to accept my pull request. However, I had no significant changes to your code other than adding program purpose comments in the header of each block. For this reason, I created a 4th branch called "Peer Code Review" rather than editing the "project-3" branch to avoid merging issues we've encountered in the past.
+
+In the future, if you choose to work on uploading the files via GitBash terminal, I recommend the following based on some issues I encountered: Script Execution ○ When creating .sh files from the Git Bash terminal, I encountered merge, pull, commit, and push issues. ○ I had to rely on the "git add -A && git commit -m "Your Message"" command line to stage and commit all files, including newly added files. Then I could successfully go back to my repository on GitHub to make final commits. ○ From this step on, after every commit on GitHub, I made sure to do a pull request from the GitHub terminal to avoid this issue.
+
+Thank you for allowing me to contribute and have you review my code for this tutorial as well!
 I'm still getting errors with the execution. The listed files and directories to be included is
 always displayed as 0.
 
